@@ -1,19 +1,17 @@
-#Meu primeiro Projeto Python!!! ( # = comentario em linha )
-#print() =comando de saida
-
-print("Hello World!")
-
-# Quando quiser guardar uma String (frase)
-nome = "Henrique Emanoel"
-# Quando eu quiser guardar um número inteiro 
-idade = 20
-# Exibir o nome (que esta dentro da variavel Nome)
-print(nome, idade)
+#comando input(): quer permitir que o usuario digite algo...
+nome = input("digite seu nome:")
+#pede a idade para o usuario "qual a sua idade?"
+idade= int(input("digite sua idade:"))
 
 
 
+#comando de saida.. exibir na tela 
+print(f"Boa noite, seus nome é {nome}")
+#exiba "sua idade é" ..."
+print("Sua idade é {}".format(idade))
 
+#se eu quiser  mostrar o dobro da idade informada ?
+dobro = idade * 2
 
-'''
-Comentario em bloco 
-'''
+print(" o dobro da idade informada é {}". format(dobro))
+
