@@ -47,8 +47,3 @@ i=0 # i = chamar de index
 while(i<len(frutas)):
   print(frutas[i])
   i= i + 1
-
-
-
-
-
