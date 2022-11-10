@@ -47,3 +47,10 @@ i=0 # i = chamar de index
 while(i<len(frutas)):
   print(frutas[i])
   i= i + 1
+
+print("exemplo das frutas com o FOR")
+for fruta in frutas:
+ print(fruta)
+
+
+
