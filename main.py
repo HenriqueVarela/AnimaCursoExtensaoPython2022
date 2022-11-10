@@ -1,57 +1,27 @@
-print("Início da aula 3 (09/11/2023)")
+#criação de funções
 
-contador = 1
+preco = 1999.90
 
-# Exibir de 1 até 10 repetidamente
-while(contador <= 10):
-  print(contador)
-  contador = contador+1 #contador += 1
+#Calcular apenas 5% de imposto, guardar na variavel imposto e exibir na tela
+imposto = preco * 0.05
+print(imposto)
 
+preco2 = 100
+imposto2 = preco2 * 0.05
+print(imposto2)
 
-# Laço for (python for = for each)
-fruta = "morango"
-print(fruta)
+#Criar uma função calcular_imposto() que calcular um imposto de 5% e retorna a quem pediu...
+#Isso é a declaração da função (Como ela funciona)
+def calcular_imposto(preco_produto):
+  imposto = preco_produto * 0.05
+  return imposto
 
-fruta1 = "morango"
-fruta2 = "laranja"
-fruta3 = "pêra"
+#Aqui é o uso... aqui é imposto a calcular.. e exibir na tela
+preco = 299
+imposto = calcular_imposto(preco)
+print(imposto)
 
-#Lista
-frutas = ["morango", "laranja", "pêra"]
-
-#mostra todas
-print(frutas)
-#quero exibir apenas a 3a. fruta (pêra)
-print(frutas[2])
-
-#Exibir quantas frutas tem na minha lista?
-print(len(frutas)) # length = tamanho
-
-
-#quero incluir frutas novas
-frutas.append("abacaxi")
-
-print(len(frutas)) #length = tamanho
-print(frutas)
-
-print(frutas[0])
-print(frutas[1])
-print(frutas[2])
-print(frutas[3])
-#print(frutas[4])
-
-print("exemplos das frutas com while")
-frutas.append("uva")
-
-i=0 # i = chamar de index
-while(i<len(frutas)):
-  print(frutas[i])
-  i= i + 1
-
-print("exemplo das frutas com o FOR")
-for fruta in frutas:
- print(fruta)
-
-
-
+print(preco)
+print(preco_produto)
+    
 
